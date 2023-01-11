@@ -96,6 +96,7 @@ header{
     padding: 17px 29px;
     color: white;
     margin-right: 26px;
+    transition: all 0.2s;
 
 }
 .button2{
@@ -104,6 +105,13 @@ header{
     border: 1px solid #e0e0e0;
     color: #333;
     border-radius: 32px;
+    transition: all 0.2s;
+}
+.button1:hover{
+    opacity: 0.6;
+}
+.button2:hover{
+    opacity: 0.6;
 }
 .top_comment{
     width: 75%;
